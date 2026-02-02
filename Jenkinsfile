@@ -7,6 +7,7 @@ pipeline {
     PGUSER = credentials('PGUSER')
     PORT = credentials('PORT')
     PGPASSWORD = credentials('PGPASSWORD')
+  }
   stages {
 
     stage('Checkout') {

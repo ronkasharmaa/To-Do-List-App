@@ -6,6 +6,11 @@ services:
     depends_on:
       - db
     restart: always
+    environment:
+      PGHOST: db
+      PGUSER: postgres
+      PGPASSWORD: ${PGPASSWORD}
+      PGDATABASE: todo
 
   db:
     image: postgres:16-alpine

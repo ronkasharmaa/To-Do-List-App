@@ -2,7 +2,7 @@
 A To Do List App made using nodejs, expressjs, ejs, postgreSQL. Can be auto deployed using Jenkins pipeline
 
 Requirements needed to run this project locally is :-
-```sh
+```
 Jenkins
 Docker
 ```

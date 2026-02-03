@@ -1,7 +1,7 @@
-# To-Do-List-App (Containerized)
-A To Do List App made using nodejs, expressjs, ejs, postgreSQL 
+# To-Do-List-App (Automated Depolyment using containers)
+A To Do List App made using nodejs, expressjs, ejs, postgreSQL. Can be auto deployed using Jenkins pipeline
 
-Commands needed to run this project locally is :-
-
-		  docker compose build up -d
+Requirements needed to run this project locally is :-
+			Jenkins
+			Docker
 project would be live at http://localhost:3000/

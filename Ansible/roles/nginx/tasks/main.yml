@@ -2,9 +2,26 @@
   apt:
     name: nginx
     state: present
+    update_cache: yes
 
-- name: Start nginx
+- name: Remove default site
+  file:
+    path: /etc/nginx/sites-enabled/default
+    state: absent
+
+- name: Copy app nginx config
+  copy:
+    src: app.conf
+    dest: /etc/nginx/sites-available/app.conf
+
+- name: Enable app site
+  file:
+    src: /etc/nginx/sites-available/app.conf
+    dest: /etc/nginx/sites-enabled/app.conf
+    state: link
+
+- name: Restart nginx
   service:
     name: nginx
-    state: started
+    state: restarted
     enabled: yes

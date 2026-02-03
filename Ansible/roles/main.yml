@@ -1,0 +1,4 @@
+- name: Show app URL
+  debug:
+    msg: "Application is available at http://{{ inventory_hostname }}"
+

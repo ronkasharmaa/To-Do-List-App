@@ -42,6 +42,7 @@ Prerequisites:
   - Branches to build: */main
   - Script path: Jenkinsfile
 - Create Global Credentials
+
   1)
   - Kind: Secret text
   - Scope: Global

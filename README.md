@@ -57,6 +57,7 @@ Prerequisites:
   - Username: ubuntu/ec2-user (based on what ec2 OS image you use)
   - Private key (Enter Directly): <Your .pem file contents>
   - Passphrase: <empty>
+- Run pipeline
 
-
-project would be live at http://localhost:3000/
+** IP Address of ec2 machine will be showed in pipeline logs in the end **
+** project would be live at http://localhost:3000/ if run locally **

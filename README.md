@@ -24,7 +24,7 @@ cd Docker
 docker compose up
 ```
 
-## To run this project locally or with AWS provisioned infra with automation
+## To run this project with AWS provisioned infra with automation
 
 Prerequisites:
 - Jenkins
@@ -33,6 +33,8 @@ Prerequisites:
 - Terraform
 - Jenkins
 - AWS CLI
+
+** Set up AWS CLI with you credentials or terraform will not work **
 
 ### Setting up Jenkins:
 - Create new pipeline

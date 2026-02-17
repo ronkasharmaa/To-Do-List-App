@@ -61,5 +61,5 @@ Prerequisites:
   - Passphrase: <empty>
 - Run pipeline
 
-**IP Address of ec2 machine will be showed in pipeline logs in the end**
-**Project would be live at http://localhost:3000/ if run locally**
+**IP Address of ec2 machine will be showed in pipeline logs in the end
+Project would be live at http://localhost:3000/ if run locally**
